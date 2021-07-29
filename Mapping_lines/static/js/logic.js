@@ -18,7 +18,7 @@ let lines = [
   [47.4502, -122.3088]
 ];
 // Create a polyline using the line coordinates and make the line yellow.
-L.polyline(line, {
+L.polyline(lines, {
   color: "yellow"
 }).addTo(map);
 
